@@ -15,7 +15,7 @@ abstract class AbstractShippingType implements ShippingTypeInterface
 
 	public const TYPE          = self::TYPE_NULL;
 
-	final public function getType():? string
+	final public function getValue():? string
 	{
 		return $this::TYPE;
 	}
